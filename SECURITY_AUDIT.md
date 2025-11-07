@@ -150,6 +150,8 @@ async getDevFeeAddress(): Promise<string> {
 
 **⚠️ DISCREPANCY**: README says 4.17%, code says 5.88% (1.7% difference)
 
+**✅ JOHN'S FORK FIX**: Dev fee now **DISABLED by default** - you keep 100% of rewards!
+
 ---
 
 ### 4. ✅ No Private Key Transmission

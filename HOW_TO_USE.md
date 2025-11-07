@@ -177,14 +177,17 @@ If you already created a wallet:
 
 ---
 
-## 💰 Development Fee System
+## 💰 Development Fee System (DISABLED by Default in John's Fork)
 
-The app includes a **transparent dev fee**:
-- **1 solution per 24 user solutions** = ~4.17% dev fee
+**In John's fork**: Dev fee is **DISABLED by default** - you keep 100% of your mining rewards!
+
+Original app behavior (if you enable it):
+- **1 solution per 17 user solutions** = ~5.88% dev fee
 - This is **NOT a fee on your rewards** - you keep all your earnings
 - The miner finds extra solutions for developer addresses
 - Completely logged and transparent
-- **Can be disabled**: Set `DEV_FEE_ENABLED=false` in `.env` file
+- **Default in John's fork**: DISABLED (0%)
+- **To enable**: Set `DEV_FEE_ENABLED=true` in `.env` file
 
 ---
 
