@@ -55,11 +55,11 @@ export class DevFeeManager {
     // Load cache first to get user's preference
     this.cache = this.loadCache();
 
-    // Initialize config - use cached enabled state if available, otherwise default to true
+    // Initialize config - use cached enabled state if available, otherwise default to FALSE (disabled)
     this.config = {
-      enabled: config.enabled ?? this.cache.enabled ?? true,
+      enabled: config.enabled ?? this.cache.enabled ?? false,
       apiUrl: config.apiUrl || 'https://miner.ada.markets/api/get-dev-address',
-      ratio: config.ratio ?? 17, // 1 in 17 solutions (~5.88% dev fee)
+      ratio: config.ratio ?? 17, // 1 in 17 solutions (~5.88% dev fee) - only applies if enabled
       cacheFile,
       clientId: '', // Will be set below
     };
