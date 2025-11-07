@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Midnight-Super-Miner-Workspace"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/node_modules": true
+		}
+	}
+}
