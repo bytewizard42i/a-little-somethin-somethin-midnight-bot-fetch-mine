@@ -39,7 +39,7 @@ class MiningOrchestrator extends EventEmitter {
   private lastCpuCheck: { idle: number; total: number } | null = null;
   private addressesProcessedCurrentChallenge = new Set<number>(); // Track which address indexes have processed current challenge
   private solutionTimestamps: SolutionTimestamp[] = []; // Track all solution timestamps for hourly/daily stats
-  private workerThreads = 11; // Number of parallel mining threads
+  private workerThreads = 22; // Number of parallel mining threads (optimized for 24-core CPU)
   private submittedSolutions = new Set<string>(); // Track submitted solution hashes to avoid duplicates
   private solvedAddressChallenges = new Map<string, Set<string>>(); // Map: address -> Set of solved challenge_ids
   private userSolutionsCount = 0; // Track non-dev-fee solutions for dev fee trigger
