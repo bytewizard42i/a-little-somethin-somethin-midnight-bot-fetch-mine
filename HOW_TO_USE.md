@@ -1,7 +1,7 @@
 # 🌙 Midnight Super Miner - How to Use Guide
 
-**For**: John Santi  
-**Created by**: Penny  
+**For**: super-vibe-user  
+**Created by**: AwesomeAi  
 **Date**: November 7, 2025  
 **Location**: `/home/js/Midnight-Super-Miner`
 
@@ -177,16 +177,16 @@ If you already created a wallet:
 
 ---
 
-## 💰 Development Fee System (DISABLED by Default in John's Fork)
+## 💰 Development Fee System (DISABLED by Default in super-vibe-user's Fork)
 
-**In John's fork**: Dev fee is **DISABLED by default** - you keep 100% of your mining rewards!
+**In super-vibe-user's fork**: Dev fee is **DISABLED by default** - you keep 100% of your mining rewards!
 
 Original app behavior (if you enable it):
 - **1 solution per 17 user solutions** = ~5.88% dev fee
 - This is **NOT a fee on your rewards** - you keep all your earnings
 - The miner finds extra solutions for developer addresses
 - Completely logged and transparent
-- **Default in John's fork**: DISABLED (0%)
+- **Default in super-vibe-user's fork**: DISABLED (0%)
 - **To enable**: Set `DEV_FEE_ENABLED=true` in `.env` file
 
 ---
@@ -528,8 +528,8 @@ cp -r secure ~/wallet-backup-$(date +%Y%m%d)
 ---
 
 **Built by**: Paddy & Paul  
-**Cloned by**: Penny for John  
+**Cloned by**: AwesomeAi for super-vibe-user  
 **Location**: `/home/js/Midnight-Super-Miner`  
 **Ready to mine**: YES! 🌙⛏️
 
-**Happy Mining, John!** 💰🚀
+**Happy Mining, super-vibe-user!** 💰🚀

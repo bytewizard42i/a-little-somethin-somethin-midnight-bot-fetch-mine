@@ -1,7 +1,7 @@
 # 🔒 Security Audit - Midnight Super Miner
 
-**Audited by**: Penny  
-**For**: John Santi  
+**Audited by**: AwesomeAi  
+**For**: super-vibe-user  
 **Date**: November 7, 2025  
 **Verdict**: ✅ **SAFE TO USE** (with minor notes)
 
@@ -475,8 +475,8 @@ It's a legitimate mining application with:
 
 ---
 
-**Audited by**: Penny 🔒  
-**For**: John Santi (Midnight Ambassador)  
+**Audited by**: AwesomeAi 🔒  
+**For**: super-vibe-user (Midnight Ambassador)  
 **Verdict**: ✅ SAFE TO USE  
 **Confidence**: 90%
 
